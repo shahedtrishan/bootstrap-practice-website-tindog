@@ -5,7 +5,7 @@ body {
 #title {
   background-color: #ff4c68;
   color: #fff;
-  font-weight: bold;
+
 }
 
 h1 {
@@ -14,15 +14,23 @@ h1 {
   line-height: 1.5;
   font-weight: bold;
 }
+h3{
+  font-family: "Montserrat-bold"
+}
+p{
+  color:#8f8f8f;
+  font-family: "Montserrat-bold";
+}
 
 .container-fluid {
   padding: 3% 15%;
 }
 
 /* Navigation Bar */
-.navbar{
-  padding:0 0 4.5rem;
+.navbar {
+  padding: 0 0 4.5rem;
 }
+
 .navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
@@ -32,13 +40,29 @@ h1 {
 .nav-item {
   padding: 0 15px 0 15px;
 }
+
 /* download-button */
-.download-button{
+.download-button {
   margin-top: 40px;
 }
 
 /* Title Image */
-.title-image{
+.title-image {
   width: 50%;
   transform: rotate(25deg);
+}
+#features{
+  padding:3% 15%
+}
+.features-box{
+  text-align: center;
+  padding:5%;
+
+}
+.fas{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.fas:hover{
+  color: #ff4c68;
 }
