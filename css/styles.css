@@ -78,11 +78,11 @@ p{
 
 
 }
-.fas{
+.sup{
   color: #ef8172;
   margin-bottom: 1rem;
 }
-.fas:hover{
+.sup:hover{
   color: #ff4c68;
 }
 
@@ -125,5 +125,39 @@ margin: 20px;
 }
 
 .pricing-column{
-  padding: 3% 2%;
+  padding: 1% 2%;
+}
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align:center;
+  }
+  .title-image {
+    width: auto;
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 3% 15%;
+  color: #fff;
+}
+.cta-heading{
+  font-family: Montserrat Black;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 15%;
+
+}
+.fut-champ{
+  margin: 2% 0.5%;
 }
